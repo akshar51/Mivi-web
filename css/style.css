@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    background-color: black;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .nav-link {
+    color: white;
+    margin: 0 10px;
+  }
+
+  .nav-link:hover {
+    color: #a2ffa2;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 100px 0px 0px;
+    background-color: black;
+    position: relative;
+  }
+
+  .hero-section h1 {
+    font-size: 4.5rem;
+    color: #8eff8e;
+    font-weight: bold;
+ 
+  }
+
+  .hero-section p {
+    font-size: 1.6rem;
+    color: #d4d4d4;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 700;
+   
+  }
+
+  .hero-button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+    font-weight: 600;
+  }
+
+  .hero-button:hover {
+    background: #8eff8e;
+    color: black;
+    border-color: #8eff8e;
+  }
+
+  .equalizer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+  }
+
+  .bar {
+    width:10vw ;
+    background: linear-gradient(to top, #8eff8e, transparent);
+    
+  }
+  .equalizer :nth-child(1) {
+    height: 500px;
+  }
+  .equalizer :nth-child(2) {
+    height: 400px;
+  }
+
+  .equalizer :nth-child(3) {
+    height: 300px;
+  }
+  .equalizer :nth-child(4) {
+    height: 200px;
+  }
+
+  .bar:nth-child(5) {
+    height: 150px;
+  }
+
+  .equalizer :nth-child(6) {
+    height: 150px;
+  }
+  .equalizer :nth-child(7) {
+    height: 200px;
+  }
+
+  .equalizer :nth-child(8) {
+    height: 300px;
+  }
+  .equalizer :nth-child(9) {
+    height: 400px;
+  }
+
+  .bar:nth-child(10) {
+    height: 500px;
+  }
+
+  
