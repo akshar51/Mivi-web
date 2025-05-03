@@ -15,7 +15,6 @@ body {
   /* ----------NAVBAR ---------*/
   .navbar {
     background-color: black;
-    border-bottom: 1px solid white;
   }
 
   .navbar-brand img {
@@ -23,8 +22,9 @@ body {
   }
 
   .nav-link {
-    color: white;
+    color: rgb(189, 189, 189) !important;
     margin: 0 10px;
+    font-size: 1.05rem !important;
   }
 
   .nav-link:hover {
@@ -42,7 +42,7 @@ body {
     padding: 0 170px 0px !important;
   }
 
-  .dropdown-menu h3 {
+  .dropdown-menu h5 {
     font-weight: bold;
     color: #d2d2d2;
     flex-wrap: nowrap;
@@ -61,10 +61,8 @@ body {
 
   .dropdown-menu .col{
     /* border: 1px solid white; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding-inline: 4.5rem;
+    padding-block: 40px;
   }
 
   /*-------- HERO-SECTION---------- */
