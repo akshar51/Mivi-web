@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
     background-color: black;
     color: white;
@@ -5,8 +12,10 @@ body {
     overflow-x: hidden;
   }
 
+  /* ----------NAVBAR ---------*/
   .navbar {
     background-color: black;
+    border-bottom: 1px solid white;
   }
 
   .navbar-brand img {
@@ -22,6 +31,43 @@ body {
     color: #a2ffa2;
   }
 
+  /* ------------ DROP-DOWN MENU---------- */
+  .dropdown-menu{
+    position: absolute;
+    bottom: 0;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(6px);
+    border-radius: 0px 0px 50px 50px !important;
+    padding: 0 170px 0px !important;
+  }
+
+  .dropdown-menu h3 {
+    font-weight: bold;
+    color: #d2d2d2;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    color: #949494;
+    margin: 0.5rem 0;
+    text-decoration: none;
+  }
+
+  .dropdown-menu a:hover {
+    color: #00ff00;
+  }
+
+  .dropdown-menu .col{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 4.5rem;
+  }
+
+  /*-------- HERO-SECTION---------- */
   .hero-section {
     text-align: center;
     padding: 100px 0px 0px;
