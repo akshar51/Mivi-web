@@ -335,4 +335,12 @@ body {
   background-color: #00e600;
 }
 
-  
+
+/* -------- Footer ---------- */
+ul li a{
+  text-decoration: none;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
