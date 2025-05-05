@@ -6,8 +6,6 @@
 
 
 body {
-    background-color: black;
-    color: white;
     font-family: 'Segoe UI', sans-serif;
     overflow-x: hidden;
   }
@@ -154,5 +152,187 @@ body {
   .bar:nth-child(10) {
     height: 500px;
   }
+
+
+  
+/* ---------- Upgrade ------------ */
+.back{
+  background: linear-gradient(to bottom, #1e0c00, #5f574d);
+}
+
+.product-card {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #a4835b; /* Light brown/tan border */
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  height: 100%;
+  background: linear-gradient(to bottom, #1e0c00, #5f574d); /* Background similar to the screenshot */
+  color: white;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.features {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.tagline {
+  font-weight: 600;
+  color: #333;
+}
+.color{
+  color: #e2aa00;
+  text-shadow: #00ff00;
+
+}
+
+.custom-box {
+  background-color: #896155; 
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 2px solid #ffffff50; 
+  text-align: center;
+  max-width: 900px;
+  margin: 3.5rem auto;
+}
+.btn {
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: #4b2b21;
+}
+.fa-bag-shopping{
+  color: #4b2b21;
+}
+
+/* ---------- Shop --------- */
+.category-content{
+  background-color: white;
+}
+
+.category-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+.category-card:hover {
+  transform: scale(1.03);
+}
+.category-img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  padding: 1rem;
+  background-color: #fef6ee;
+}
+.category-title {
+  background-color: #5c4033;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* -------- Like ------------- */
+.like-box{
+  background-color: white;
+}
+.testimonial-card {
+  border: 1px solid #f3d6bf;
+  border-radius: 15px;
+  padding: 2rem;
+  border: 3px solid #5c4033;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px rgba(219, 179, 47, 0.05);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-quote {
+  font-size: 2rem;
+  color: #5c4033;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.testimonial-author {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000;
+}
+
+/* ---------- Contact ----- */
+.contact-box{
+  background-color: white;
+}
+
+.subscribe-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.subscribe-input {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.subscribe-input input[type="email"] {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+.subscribe-input button {
+  margin-top: 0;
+  background-color: #00ff00;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.subscribe-input button:hover {
+  background-color: #00e600;
+}
 
   
